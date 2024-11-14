@@ -1,7 +1,8 @@
 /* eslint-disable react/prop-types */
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Moon, Sun, Menu, X } from "lucide-react";
+import { FaMoon, FaSun, FaXmark } from "react-icons/fa6";
+import { IoMenu } from "react-icons/io5";
 
 export default function Navbar({ toggleTheme, logo }) {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -71,8 +72,8 @@ export default function Navbar({ toggleTheme, logo }) {
               </a>
             ))}
             <Button variant="ghost" size="icon" onClick={toggleTheme}>
-              <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-              <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+              <FaSun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+              <FaMoon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
               <span className="sr-only">Toggle theme</span>
             </Button>
           </div>
@@ -83,8 +84,8 @@ export default function Navbar({ toggleTheme, logo }) {
               onClick={toggleTheme}
               className="mr-2"
             >
-              <Sun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
-              <Moon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
+              <FaSun className="h-[1.2rem] w-[1.2rem] rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
+              <FaMoon className="absolute h-[1.2rem] w-[1.2rem] rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
               <span className="sr-only">Toggle theme</span>
             </Button>
             <Button
@@ -93,9 +94,9 @@ export default function Navbar({ toggleTheme, logo }) {
               onClick={() => setIsMenuOpen(!isMenuOpen)}
             >
               {isMenuOpen ? (
-                <X className="h-6 w-6" />
+                <FaXmark className="h-6 w-6" />
               ) : (
-                <Menu className="h-6 w-6" />
+                <IoMenu className="h-6 w-6" />
               )}
             </Button>
           </div>

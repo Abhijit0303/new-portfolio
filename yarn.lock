@@ -2355,7 +2355,7 @@ natural-compare@^1.4.0:
     class-variance-authority "^0.7.0"
     clsx "^2.1.1"
     framer-motion "^11.11.13"
-    neubrutalism-aesthe-portfolio "file:C:/Users/kumar/AppData/Local/Yarn/Cache/v6/npm-neubrutalism-aesthe-portfolio-0.0.0-9e4b3f4e-c2e1-40ee-a78b-01a846866c0a-1731559721629/node_modules/neubrutalism-aesthe-portfolio"
+    neubrutalism-aesthe-portfolio "file:C:/Users/kumar/AppData/Local/Yarn/Cache/v6/npm-neubrutalism-aesthe-portfolio-0.0.0-6dd097f5-d986-4819-b4a8-369fb616e842-1731563928991/node_modules/neubrutalism-aesthe-portfolio"
     next-themes "^0.4.3"
     postcss "^8.4.48"
     react "^18.3.1"
@@ -2696,6 +2696,11 @@ react-dom@^18.3.1:
   dependencies:
     loose-envify "^1.1.0"
     scheduler "^0.23.2"
+
+react-icons@^5.3.0:
+  version "5.3.0"
+  resolved "https://registry.yarnpkg.com/react-icons/-/react-icons-5.3.0.tgz#ccad07a30aebd40a89f8cfa7d82e466019203f1c"
+  integrity sha512-DnUk8aFbTyQPSkCfF8dbX6kQjXA9DktMeJqfjrg6cK9vwQVMxmcA3BfP4QoiztVmEHtwlTgLFsPuH2NskKT6eg==
 
 react-is@^16.13.1:
   version "16.13.1"
