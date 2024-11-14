@@ -3,7 +3,7 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { motion } from "framer-motion";
 
-export default function About({ about, photoUrl }) {
+export default function About({ about }) {
   const paragraphs = about.split("\n\n").filter((p) => p.trim() !== "");
 
   return (
@@ -22,8 +22,8 @@ export default function About({ about, photoUrl }) {
             <div className="absolute inset-0 bg-gradient-to-r from-primary/10 to-primary/30 rounded-lg blur-xl group-hover:blur-2xl transition-all duration-300" />
             <div className="relative overflow-hidden rounded-lg border-4 border-primary/20">
               <img
-                src={photoUrl}
-                alt="Profile"
+                src="/render-img.jpg"
+                alt="Profile-Pic"
                 className="w-full h-full object-cover transition-all duration-300"
               />
             </div>

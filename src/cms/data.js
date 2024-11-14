@@ -3,14 +3,15 @@ export const data = {
   role: "Software Engineer || Backend Enthusiast",
   description:
     "Building efficient and scalable backend systems with a focus on clean code and optimized performance.",
-  logo: "\\ Abhi. ",
+  logo: "\\ Abhi.. ",
   about: `
-      Hello! I'm Kumar Abhijit Panda, a backend-focused developer with strong skills in Python, Django, and Django Rest Framework, complemented by full-stack experience. I specialize in building reliable and scalable backend systems, while also working across the stack to create cohesive and engaging web applications.\n
-      
-      With over a year of professional experience, I have developed RESTful APIs, designed efficient database schemas, and implemented business logic, ensuring performance and security. On the frontend, I enjoy crafting responsive interfaces and delivering seamless user experiences. My goal is to build end-to-end solutions that not only solve problems but also delight users with intuitive design and smooth functionality.
+      Hello!! 👋 I'm Abhijit, a backend-focused developer with strong skills in Python, Django, and Django Rest Framework, complemented by full-stack experience. I specialize in building reliable and scalable backend systems, while also working across the stack to create cohesive and engaging web applications.\n
       \n
+      With over a year of professional experience, I have developed RESTful APIs, designed efficient database schemas, and implemented business logic, ensuring performance and security. On the frontend, I enjoy crafting responsive interfaces and delivering seamless user experiences. My goal is to build end-to-end solutions that not only solve problems but also delight users with intuitive design and smooth functionality.
+      \n\n
       When I'm not coding, I stay engaged with industry trends, contribute to projects, and focus on growing my skills in microservices, Docker, and Kubernetes.
-    `,
+      \n   
+      `,
   experiences: [
     {
       role: "Associate I",
@@ -118,8 +119,8 @@ export const data = {
   ],
   resumeUrl:
     "https://drive.google.com/file/d/1bKtMEn7yP7T1onMM9WGGg6TV5Y_-mxoE/view?usp=sharing",
-  photoUrl:
-    "https://drive.google.com/file/d/1RWkgj9zDdA6b2tFmz6ReX05nU5WvUUeA/view?usp=sharing",
+  // photoUrl: "../assests/render-img.jpg",
+  // "https://drive.google.com/thumbnail?id=1RWkgj9zDdA6b2tFmz6ReX05nU5WvUUeA&sz=w1000",
   projects: [
     {
       title: "Recipe API",
@@ -148,7 +149,7 @@ export const data = {
       description:
         "Built a portfolio website using ReactJS, ShadCNUI, TailwindCSS, and Yarn, showcasing my skills with a modern, responsive design and efficient development workflow.",
       technologies: ["ReactJs", "TailwindCSS", "ShaCN/UI", "Yarn"],
-      github: "https://github.com/yourusername/secure-api-gateway",
+      github: "https://github.com/Abhijit0303/new-portfolio",
       // live: "https://api.yourdomain.com",
     },
   ],
