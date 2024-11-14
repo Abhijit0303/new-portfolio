@@ -1,7 +1,7 @@
 /* eslint-disable react/prop-types */
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Download } from "lucide-react";
+import { FaArrowRightFromBracket, FaDownload } from "react-icons/fa6";
 
 export default function Hero({
   name,
@@ -51,7 +51,7 @@ export default function Hero({
           onClick={() => window.open(githubUrl, "_blank")}
         >
           View My Work
-          <ArrowRight className="ml-2 group-hover:translate-x-1 transition-transform" />
+          <FaArrowRightFromBracket className="ml-2 group-hover:translate-x-1 transition-transform" />
         </Button>
         <Button
           size="lg"
@@ -60,7 +60,7 @@ export default function Hero({
           onClick={() => window.open(resumeUrl, "_blank")}
         >
           Download Resume
-          <Download className="ml-2 group-hover:translate-y-1 transition-transform" />
+          <FaDownload className="ml-2 group-hover:translate-y-1 transition-transform" />
         </Button>
       </div>
     </section>
