@@ -10,7 +10,7 @@ export const data = {
       With over a year of professional experience, I have developed RESTful APIs, designed efficient database schemas, and implemented business logic, ensuring performance and security. On the frontend, I enjoy crafting responsive interfaces and delivering seamless user experiences. My goal is to build end-to-end solutions that not only solve problems but also delight users with intuitive design and smooth functionality.
       \n\n
       When I'm not coding, I stay engaged with industry trends, contribute to projects, and focus on growing my skills in microservices, Docker, and Kubernetes.
-      \n   
+      \n
       `,
   experiences: [
     {
@@ -28,88 +28,39 @@ export const data = {
     },
   ],
   skills: [
-    {
-      name: "Python",
-      // level: "Advanced",
-    },
-    {
-      name: "Java",
-      level: "Intermediate",
-    },
-    {
-      name: "Javascript",
-      level: "Intermediate",
-    },
-    {
-      name: "Django",
-      level: "Advanced",
-    },
-    {
-      name: "Django Rest Framework",
-      level: "Intermediate",
-    },
-    {
-      name: "Django Test Suite",
-      level: "Basic",
-    },
-    {
-      name: "Spring Boot",
-      level: "Basic",
-    },
-    {
-      name: "PostgrSQL",
-      level: "Intermediate",
-    },
-    {
-      name: "MySQL",
-      level: "Intermediate",
-    },
-    {
-      name: "Linux(Ubuntu)",
-      level: "Basic",
-    },
-    {
-      name: "Docker",
-      level: "Basic",
-    },
-    {
-      name: "Git",
-      level: "Basic",
-    },
-    {
-      name: "Github Actions",
-      level: "Basic",
-    },
-    {
-      name: "AWS",
-      level: "Basic",
-    },
-    {
-      name: "Microservices Architecture",
-      level: "Basic",
-    },
-    {
-      name: "ReactJs",
-      level: "Intermediate",
-    },
-    {
-      name: "HTML",
-      level: "Intermediate",
-    },
-    {
-      name: "CSS",
-      level: "Intermediate",
-    },
-    {
-      name: "TailwindCSS",
-      level: "Intermediate",
-    },
-    {
-      name: "Bootstrap",
-      level: "Intermediate",
-    },
+    { name: "Python" },
+    { name: "Django" },
+    { name: "Django Rest Framework" },
+    { name: "FastAPI" },
+    { name: "JWT Authentication" },
+    { name: "PostgreSQL" },
+    { name: "MySQL" },
+    { name: "MongoDB" },
+    { name: "Google Gemini API" },
+    { name: "langchain" },
+    { name: "SQLAlchemy" },
+    { name: "Docker" },
+    { name: "Git" },
+    { name: "GitHub Actions" },
+    { name: "Linux (Ubuntu)" },
+    { name: "Microservices Architecture" },
+    { name: "AWS (Basics)" },
+    { name: "Pytest / Django Test Suite" },
+    { name: "Java" },
+    { name: "Spring Boot (Basics)" },
+    { name: "JavaScript" },
+    { name: "React.js" },
+    { name: "HTML" },
+    { name: "CSS" },
+    { name: "TailwindCSS" },
   ],
   educations: [
+    {
+      courseName: "M.Tech, Artificial Intelligence and Machine Learning",
+      collegeName: "DRIEMS University",
+      place: "Cuttack, Odisha",
+      period: "2024 - 2026",
+    },
     {
       courseName: "B.Tech, Computer Science and Engineering",
       collegeName: "DRIEMS Autonomous Engineering College",
@@ -123,26 +74,39 @@ export const data = {
   // "https://drive.google.com/thumbnail?id=1RWkgj9zDdA6b2tFmz6ReX05nU5WvUUeA&sz=w1000",
   projects: [
     {
-      title: "Recipe API",
+      title: "Snippet Sync",
       description:
-        "Developed a recipe API using Django Rest Framework with Test-Driven Development (TDD), Dockerized the app, implemented unit testing, and set up GitHub Actions for continuous integration and testing pipelines.",
+        "A SaaS-style backend service that enables developers to securely store, organize, and sync reusable code snippets across devices. The system provides authenticated, user-isolated REST APIs with JWT-based authentication, session management, and comprehensive unit test coverage to ensure production-grade reliability.",
       technologies: [
-        "Django",
-        "Django Rest Framework",
-        "Django Test Suite",
-        "Docker",
-        "Github Actions",
+        "Python",
+        "FastAPI",
+        "PostgreSQL",
+        "SQLAlchemy",
+        "JWT",
+        "Pytest",
       ],
-      github: "https://github.com/Abhijit0303/recipe-app-api",
-      // live: "https://college-management-demo.yourdomain.com",
+      github: "https://github.com/Abhijit0303/snippet-sync",
     },
     {
-      title: "Quiz Evaluation System",
+      title: "Auto Readme Generator",
       description:
-        "Developed a command-line C program to process CSV files containing MCQ question papers and answer sheets, automate grading, and calculate total marks by comparing answers, showcasing strong file handling, data parsing, and problem-solving skills.",
-      technologies: ["C Lang", "CUnit", "CSV", "Excel"],
-      github: "https://github.com/Abhijit0303/Quiz_Evaluation_System",
-      // live: "https://college-management-demo.yourdomain.com",
+        "An automated tool that generates structured and developer-friendly README files by analyzing project metadata and repository structure, helping teams maintain consistent and high-quality documentation with minimal manual effort.",
+      technologies: ["Python", "AI Prompting", "Gemini API", "langchain"],
+      github: "https://github.com/Abhijit0303/AutoReadmeGen",
+    },
+    {
+      title: "FlowDG (AI Flow Diagram Generator)",
+      description:
+        "An AI-powered system that converts textual descriptions into clear and structured flow diagrams, simplifying system design visualization and improving technical communication during planning and documentation phases.",
+      technologies: ["Python", "langchain", "JSON", "Gemini API", "Markdown"],
+      github: "https://github.com/Abhijit0303/FlowDG",
+    },
+    {
+      title: "Auto Insight",
+      description:
+        "A backend-driven insight generation service that analyzes application logs or structured data to extract meaningful summaries and observations, enabling faster debugging and informed decision-making.",
+      technologies: ["Python", "langchain", "Google Gemini API"],
+      github: "https://github.com/Abhijit0303/AutoInsight",
     },
     {
       title: "Portfolio Website",

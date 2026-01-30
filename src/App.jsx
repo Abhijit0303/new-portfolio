@@ -91,3 +91,27 @@ export default function App() {
     </ThemeProvider>
   );
 }
+
+// import { useState, useEffect } from "react";
+// import { ThemeProvider } from "./components/theme-provider";
+// import Terminal from "./components/Terminal";
+// import Loading from "./components/Loading";
+// import { data } from "./cms/data";
+
+// export default function App() {
+//   const [loading, setLoading] = useState(true);
+
+//   useEffect(() => {
+//     setTimeout(() => setLoading(false), 2000);
+//   }, []);
+
+//   if (loading) return <Loading />;
+
+//   return (
+//     <ThemeProvider defaultTheme="dark">
+//       <div className="min-h-screen bg-black flex items-center justify-center p-4">
+//         <Terminal data={data} />
+//       </div>
+//     </ThemeProvider>
+//   );
+// }
